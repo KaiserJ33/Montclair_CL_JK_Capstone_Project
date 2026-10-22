@@ -1,0 +1,26 @@
+{
+  "seed": 42,
+  "model_name": "en_core_web_trf",
+  "spacy_version": "3.8.14",
+  "gpu_active": true,
+  "class_c_sample_mode": "match_class_b",
+  "class_c_sample_n": 19957,
+  "reddit_rows_scanned": 25865739,
+  "reddit_username_column": "author",
+  "normalization": "leading-at removal; camel-case, delimiter, and letter-digit splitting; punctuation cleanup; no title-casing",
+  "analytic_labels": [
+    "DATE",
+    "EVENT",
+    "FAC",
+    "GPE",
+    "LANGUAGE",
+    "LAW",
+    "LOC",
+    "NORP",
+    "ORG",
+    "PERSON",
+    "PRODUCT",
+    "WORK_OF_ART"
+  ],
+  "save_row_level_outputs": false
+}
